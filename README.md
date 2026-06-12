@@ -101,7 +101,7 @@ Repository ini dilengkapi dengan beberapa diagram analisis dan perancangan siste
 
 Use Case Diagram menggambarkan interaksi antara aktor dengan sistem. Pada Sistem Manajemen Laundry terdapat tiga aktor utama yaitu Admin, Pelanggan, dan Pemilik Usaha.
 
-![Use Case Diagram](Diagram/UseCaseDiagram.png)
+![Use Case Diagram](usecase.png)
 
 ### Penjelasan
 
@@ -129,7 +129,7 @@ Use Case Diagram menggambarkan interaksi antara aktor dengan sistem. Pada Sistem
 
 Activity Diagram menggambarkan alur proses bisnis mulai dari pelanggan menyerahkan cucian hingga cucian selesai diambil.
 
-![Activity Diagram](Diagram/ActivityDiagram.png)
+![Activity Diagram](activity.png)
 
 ### Penjelasan
 
@@ -141,7 +141,7 @@ Proses dimulai ketika pelanggan menyerahkan cucian kepada admin. Admin mencatat 
 
 Sequence Diagram menunjukkan urutan interaksi antar objek dalam sistem selama proses transaksi laundry berlangsung.
 
-![Sequence Diagram](Diagram/SequenceDiagram.png)
+![Sequence Diagram](Sequence.png)
 
 ### Penjelasan
 
@@ -160,7 +160,7 @@ Diagram menunjukkan proses input transaksi, penyimpanan data, pembayaran, dan pe
 
 ERD digunakan untuk menggambarkan struktur database dan hubungan antar entitas dalam sistem, terdiri dari empat entitas utama yaitu Pelanggan, Admin, Transaksi, dan Pembayaran. Hubungan antar entitas memungkinkan sistem mengelola data pelanggan, transaksi laundry, serta pembayaran secara terintegrasi sehingga proses operasional laundry menjadi lebih terstruktur dan efisien.
 
-![ERD](ERD (2).png)
+![Entity Relationship Diagram (ERD)](ERD.png)
 
 ### Penjelasan ERD   
 
@@ -203,7 +203,7 @@ Relasi:
 
 DFD Level 0 menggambarkan hubungan antara entitas eksternal dengan sistem secara keseluruhan.
 
-![DFD Level 0]((DFD) Level 0.png)
+![Data Flow Diagram (DFD) Level 0](DFD_Level_0.png)
 
 ### Penjelasan
 
@@ -230,7 +230,7 @@ Aliran data:
 
 DFD Level 1 digunakan untuk menggambarkan proses-proses utama yang terjadi dalam Sistem Manajemen Laundry secara lebih rinci. Diagram ini merupakan pengembangan dari DFD Level 0 dengan memecah proses utama menjadi beberapa subproses yang saling berhubungan dengan data store dan entitas eksternal.
 
-![DFD Level 1](DFD Level 1.png)
+![Data Flow Diagram (DFD) Level 1](DFD_Level_1.png)
 
 ### Penjelasan
 
